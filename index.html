@@ -16,10 +16,12 @@
     <main>
         
         <div class="container">
-            <section class="controls">
-                <div class="size">
-                    <span class="range-preview">8 x 8</span>
-                    <input id="selected-range" type="range" value="8" min="8" max="64">
+
+            <section class="settings">
+
+                <div class="grid-size">
+                    <span class="show-size">8 x 8</span>
+                    <input id="selected-size" type="range" value="8" min="8" max="64">
                 </div>
                 <button>Limpiar</button>
                 <button>Borrador</button>
@@ -27,9 +29,11 @@
                 <button>Color</button>
                 <input type="color">
             </section>
+
             <section>
-                <div id="grid"></div>
+                <div id="grid-container"></div>
             </section>
+
         </div>
 
     </main>
