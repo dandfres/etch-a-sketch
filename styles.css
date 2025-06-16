@@ -35,15 +35,6 @@ main
     width: 200px;
 }
 
-.settings button {
-    padding: 10px 20px;
-    color: #333;
-    border: 1px solid #333;
-    border-radius: 4px;
-    font-size: 16px;
-    min-width: 100%;
-}
-
 .size {
     display: flex;
     flex-direction: column;
@@ -80,16 +71,21 @@ input[type="range"]::-webkit-slider-thumb:hover {
 .btn {
     cursor: pointer;
     transition: 0.15s;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 100%;
 }
 
 .btn:hover {
-    color: #fefefe;
     background-color: #333;
+    color: #fefefe;
     transform: scale(1.05);
 }
 
-.btn:active {
-    background-color: #333;
+.btn-active {
+    background-color: #333333;
     color: #fefefe;
 }
 
@@ -113,8 +109,4 @@ input[type="color"] {
     width: 48px;
     height: 48px;
     outline: 0.5px solid #ccc;
-}
-
-.painted {
-    background-color: #333;
 }
